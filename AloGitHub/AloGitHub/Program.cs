@@ -16,10 +16,7 @@ namespace AloGitHub
         {
             EscreveNaTela2(txt);
         }
-        static void EscreveNaTela3(String txt)
-        {
-            EscreveNaTela2(txt);
-        }
+
 
         static void Main(string[] args)
         {
