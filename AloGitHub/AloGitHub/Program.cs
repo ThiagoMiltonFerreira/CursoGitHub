@@ -8,10 +8,15 @@ namespace AloGitHub
 {
     class Program
     {
-        static void Main(string[] args)
+        static void EscreveNaTela()
         {
             Console.WriteLine("Primeiro teste com o gitHub");
+        }
+        static void Main(string[] args)
+        {
+            EscreveNaTela();
             Console.ReadKey();
+
         }
     }
 }
