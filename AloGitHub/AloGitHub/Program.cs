@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,13 @@ namespace AloGitHub
     {
         static void EscreveNaTela(String txt)
         {
-            Console.WriteLine(txt);
+           Console.WriteLine(txt);
         }
         static void EscreveNaTela2(String txt)
         {
-            EscreveNaTela2(txt);
+            EscreveNaTela(txt);
         }
-
+            
 
         static void Main(string[] args)
         {
