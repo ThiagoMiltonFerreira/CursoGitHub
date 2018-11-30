@@ -21,6 +21,7 @@ namespace AloGitHub
         static void Main(string[] args)
         {
             EscreveNaTela("Primeiro Programa com GItHub");
+              EscreveNaTela("esse deu erro");
          
             Console.ReadKey();
 
