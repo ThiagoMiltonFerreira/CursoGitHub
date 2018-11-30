@@ -20,7 +20,8 @@ namespace AloGitHub
 
         static void Main(string[] args)
         {
-            EscreveNaTela("Primeiro Programa com GItHub 10:49");
+            EscreveNaTela("Primeiro Programa com GItHub");
+            EscreveNaTela("comit 1");
             Console.ReadKey();
 
         }
