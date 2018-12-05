@@ -16,10 +16,14 @@ namespace AloGitHub
         {
             EscreveNaTela2(txt);
         }
-
+         static void EscreveNaTela3(String txt)
+        {
+            EscreveNaTela2(txt);
+        }
 
         static void Main(string[] args)
-        {
+        { 
+            EscreveNaTela("Ultima versao");
             EscreveNaTela("Primeiro Programa com GItHub 10:49");
             Console.ReadKey();
 
