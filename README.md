@@ -82,3 +82,11 @@ git push -f origin master
 
 colocar meu comit na ponta da ramificaçao
 git rebase origin/master
+
+.....................................................................................
+Mostrar log de comits 
+git log
+......................................................................................
+Alterar nome da branch
+git branch nomeDaBranch
+
